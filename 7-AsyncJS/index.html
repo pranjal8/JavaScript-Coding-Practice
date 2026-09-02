@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function loadScript(src) {
+        const script = document.createElement("script");
+        script.src = src;
+
+        document.head.appendChild(script);
+      }
+
+      loadScript("./7-AsyncJS/7.0-demo.js");
+
+      console.log("inside html file " + (10 + 70));
+    </script>
+  </body>
+</html>

@@ -13,4 +13,5 @@ let counter = new Counter();
 
 console.log( counter.up() ); // 1
 console.log( counter.up() ); // 2
-console.log( counter.down() ); // 1
+console.log( counter.down() ); // 1 
+

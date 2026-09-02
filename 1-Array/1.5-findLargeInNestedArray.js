@@ -8,11 +8,14 @@ function findLargeNum(nestedArray) {
       if (Array.isArray(value)) {
         console.log(typeof value, value,  Array.isArray(value));
         findMax(value);
-      } else if (typeof value === "number") {
+      } 
+      else if (typeof value === "number") {
         console.log(typeof value, value);
+      
         if (value > max) {
           max = value;
         }
+      
       }
     }
   }

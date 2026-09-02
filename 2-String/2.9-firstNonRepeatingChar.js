@@ -18,6 +18,7 @@ Output: 2 (v is the first non-repeating character)
 
 function firstNonRepeatingChar(str) {
   const count = {};
+  
   for (let i of str.toLowerCase()) {
     count[i] = (count[i] || 0) + 1;
   }
@@ -27,5 +28,6 @@ function firstNonRepeatingChar(str) {
       return char;
     }
   }
+  
   return null;
 }
