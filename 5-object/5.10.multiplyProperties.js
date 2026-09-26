@@ -1,4 +1,8 @@
-/* Multiply Numeric properties by 2 */
+/* 
+Multiply Numeric properties by 2 
+
+Create a function multiplyNumeric(obj) that multiplies all numeric property values of obj by 2.
+*/
 
 // before the call
 let menu = {
@@ -18,8 +22,12 @@ function multiplyNumeric(obj) {
 multiplyNumeric(menu);
 
 // after the call
-/* menu = {
+/* 
+
+menu = {
     width: 400,
     height: 600,
     title: "My menu"
-  }; */
+  };
+  
+*/
