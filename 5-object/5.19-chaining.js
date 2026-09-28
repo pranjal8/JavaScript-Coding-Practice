@@ -15,15 +15,6 @@ let ladder = {
   },
 };
 
-ladder.up();
-ladder.up();
-ladder.up();
-ladder.up();
-ladder.up();
-ladder.up();
-ladder.down();
-ladder.down();
-ladder.down();
-ladder.showStep();
+ladder.up().up().down().showStep().down().showStep();
 
 

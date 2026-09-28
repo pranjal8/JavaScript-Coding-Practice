@@ -14,6 +14,7 @@ let calculator = {
 };
 
 calculator.read();
-
 console.log("Sum of two:" , calculator.sum());
 console.log("Multiplication of two" , calculator.mul());
+
+
