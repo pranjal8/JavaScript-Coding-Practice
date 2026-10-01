@@ -1,7 +1,7 @@
 /* 
-Multiply Numeric properties by 2 
-
-Create a function multiplyNumeric(obj) that multiplies all numeric property values of obj by 2.
+    Question: 
+    Multiply Numeric properties by 2 
+    Create a function multiplyNumeric(obj) that multiplies all numeric property values of obj by 2.
 */
 
 // before the call

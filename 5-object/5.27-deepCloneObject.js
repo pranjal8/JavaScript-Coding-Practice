@@ -1,9 +1,3 @@
-// function deepClone(obj){
-
-//     return JSON.parse((JSON.stringify(obj)))
-// }
-
-//Approach 2
 function deepClone(obj) {
   if (obj === null || typeof obj !== "object") {
     return obj;
