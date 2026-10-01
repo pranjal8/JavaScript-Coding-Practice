@@ -1,3 +1,19 @@
+/* 
+      Problem Statement:
+      Given an array of phone/device objects, group the device names based on their type.
+      The function should create an object where:
+      Each unique type becomes a key.
+      The value for each key is an array containing the names of devices belonging to that type.
+
+      Expected Output:
+      {
+        ios: ["IPhone 16", "Ipad", "IWatch"],
+        android: ["Tablet", "Galaxy"],
+        windows: ["Galaxy"]
+      }
+
+*/
+
 const arr = [
   {
     name: "IPhone 16",

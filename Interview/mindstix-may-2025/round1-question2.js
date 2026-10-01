@@ -1,3 +1,19 @@
+/* 
+
+    Problem Statement:
+    Given an array of user objects, extract the name property from each object and return a new array containing only the names.
+
+    Expected Output:
+    [
+      "Leanne Graham",
+      "Ervin Howell",
+      "Clementine Bauch",
+      "Patricia Lebsack",
+      "Chelsey Dietrich"
+    ]
+      
+*/
+
 const arr = [
   {
     id: 1,

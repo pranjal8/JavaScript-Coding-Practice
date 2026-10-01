@@ -1,3 +1,17 @@
+/* 
+
+    Problem Statement:
+    Given a string containing words separated by spaces, return a new string with the words in reverse order.
+
+    Input:
+    hello world
+
+    Output:
+    world hello
+
+*/
+
+
 function reverseWords(input) {
     let words = [];
     let word = "";
