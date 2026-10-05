@@ -6,4 +6,4 @@ function reverseString(str) {
   return reversed;
 }
 
-console.log(reverseString("hello")); // "olleh"
+console.log(reverseString("hello world! 123456")); // "654321 !dlrow olleh"
