@@ -6,7 +6,7 @@ function aclean(arr) {
 
   for (let word of arr) {
     let sortedWord = word.toLowerCase().split("").sort().join("");
-    console.log(sortedWord);
+
     if (!seen.includes(sortedWord)) {
       seen.push(sortedWord);
       result.push(word);
